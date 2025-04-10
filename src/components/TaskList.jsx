@@ -8,7 +8,7 @@ const TaskList = () => {
 
   return (
     <main className='bg-white shadow rounded mt-4'>
-      <h2 className='text-center font-bold text-2xl text-stone-800'>Tareas</h2>
+      <h2 className='text-center font-bold text-2xl text-stone-800'>Tareas del usuario</h2>
       <ul className='flex flex-col gap-2'>
         {tasks.map(
 
